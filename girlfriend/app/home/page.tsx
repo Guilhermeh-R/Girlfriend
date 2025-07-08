@@ -33,7 +33,7 @@ export default function HomePage() {
           spaceBetween={30}
           slidesPerView={1}
           loop={true}
-          onSwiper={(swiper) => (swiperRef.current = swiper)}
+          onSwiper={(swiper: SwiperType) => (swiperRef.current = swiper)}
           className="carrossel"
         >
           <SwiperSlide><img src="/1vezmercado.jpeg" alt="Foto 1" className="foto-carrossel" /></SwiperSlide>
